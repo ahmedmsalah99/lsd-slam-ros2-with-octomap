@@ -1,0 +1,6 @@
+[submodule "octomap_server2"]
+	path = octomap_server2
+	url = https://github.com/iKrishneel/octomap_server2.git
+[submodule "lsd_slam_ros2"]
+	path = lsd_slam_ros2
+	url = https://github.com/ahmedmsalah99/lsd_slam_ros2.git
