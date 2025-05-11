@@ -46,7 +46,7 @@ colcon build --symlink-install --packages-select octomap_msgs octomap_server2
 
 ## 🖼️ LSD-SLAM Bridge Setup
 
-> Make sure you have already built and are ready to run the LSD-SLAM container. Instructions for this are in the [`lsd_slam_ros2`](https://github.com/your-org/lsd_slam_ros2) repository.
+> Make sure you have already built and are ready to run the LSD-SLAM container. Instructions for this are in the [`lsd_slam_ros2`](https://github.com/ahmedmsalah99/lsd_slam_ros2/tree/f36eff53c0856419c1b818517b30400fed152452) repository.
 
 ### Optional: Download Example Dataset
 
