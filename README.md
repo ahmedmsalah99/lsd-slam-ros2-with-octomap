@@ -13,6 +13,10 @@ This project integrates **LSD-SLAM** running in a Docker container with a **ROS 
 - A **ROS 2 bridge node** receives image/point cloud data and publishes it in ROS 2.
 - An **OctoMap server** subscribes to the `/livox/lidar` topic and builds a 3D occupancy map.
 
+![Point Cloud Example](resources/point_cloud.png)
+
+![Point Cloud Example](resources/frame.png)
+
 ---
 
 ## 📦 Build Instructions
