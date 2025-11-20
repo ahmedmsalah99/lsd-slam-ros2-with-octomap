@@ -10,7 +10,7 @@ This project integrates **LSD-SLAM** running in a Docker container with a **ROS 
 - Host communicates with the container using two sockets:
   - **Port 9000**: Grayscale image input from host to container.
   - **Port 9002**: Keyframe point cloud output from container to host.
-- A **ROS 2 bridge node** receives image/point cloud data and publishes it in ROS 2.
+- A **ROS 2 bridge node** receives `/camera/point` cloud data and publishes it in ROS 2.
 - An **OctoMap server** subscribes to the `/livox/lidar` topic and builds a 3D occupancy map.
 
 ![Point Cloud Example](resources/point_cloud.png)
