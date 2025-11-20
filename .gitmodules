@@ -4,3 +4,6 @@
 [submodule "lsd_slam_ros2"]
 	path = lsd_slam_ros2
 	url = https://github.com/ahmedmsalah99/lsd_slam_ros2.git
+[submodule "octomap_ws/octomap_msgs"]
+	path = octomap_ws/octomap_msgs
+	url = https://github.com/OctoMap/octomap_msgs.git
